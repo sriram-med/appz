@@ -1,0 +1,32 @@
+name: Daily Jobs Scrape
+
+on:
+  schedule:
+    - cron: '30 0 * * *' # 06:00 AM IST daily (00:30 UTC)
+  workflow_dispatch:
+
+jobs:
+  scrape-and-upsert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Trigger Netlify scraper function
+        env:
+          SCRAPER_ENDPOINT: ${{ secrets.SCRAPER_ENDPOINT }}
+          SCRAPER_BEARER_TOKEN: ${{ secrets.SCRAPER_BEARER_TOKEN }}
+        run: |
+          if [ -z "$SCRAPER_ENDPOINT" ]; then
+            echo "SCRAPER_ENDPOINT secret is required" >&2
+            exit 1
+          fi
+          curl -f -sS -X POST "$SCRAPER_ENDPOINT" \
+            -H "Authorization: Bearer $SCRAPER_BEARER_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{}'
