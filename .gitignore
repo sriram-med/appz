@@ -1,0 +1,9 @@
+.next
+.netlify
+node_modules
+.env
+.env.local
+.env.production
+coverage
+dist
+
