@@ -1,0 +1,90 @@
+{
+  "last_updated": "2026-04-22T11:34:43.000Z",
+  "total_jobs": 6,
+  "jobs": [
+    {
+      "id": "npcil-mo-2026-001",
+      "title": "Medical Officer/C (General Duty Medical Officer)",
+      "organization": "NPCIL",
+      "type": "PSU",
+      "location": "All India",
+      "specialty": "GDMO",
+      "mode_of_selection": "Interview",
+      "deadline": "2026-05-15",
+      "notification_url": "https://www.npcil.nic.in/medical-jobs.html",
+      "application_url": "https://www.npcil.nic.in/medical-jobs.html",
+      "verified_date": "2026-04-22",
+      "source_url": "https://www.npcil.nic.in/medical-jobs.html"
+    },
+    {
+      "id": "esic-imo-2026-002",
+      "title": "Insurance Medical Officer Grade-II",
+      "organization": "ESIC",
+      "type": "Central Govt",
+      "location": "All India",
+      "specialty": "Insurance Medical Officer",
+      "mode_of_selection": "Written/Interview",
+      "deadline": "2026-05-10",
+      "notification_url": "https://www.esic.gov.in/recruitments",
+      "application_url": "https://www.esic.gov.in/recruitments",
+      "verified_date": "2026-04-22",
+      "source_url": "https://www.esic.gov.in/recruitments"
+    },
+    {
+      "id": "ntpc-occ-health-2026-003",
+      "title": "Industrial / Occupational Health Medical Officer",
+      "organization": "NTPC",
+      "type": "PSU",
+      "location": "All India",
+      "specialty": "Occupational Health",
+      "mode_of_selection": "Interview",
+      "deadline": "2026-05-20",
+      "notification_url": "https://careers.ntpc.co.in/recruitment",
+      "application_url": "https://careers.ntpc.co.in/recruitment",
+      "verified_date": "2026-04-22",
+      "source_url": "https://careers.ntpc.co.in/recruitment"
+    },
+    {
+      "id": "telangana-health-mo-2026-004",
+      "title": "Medical Officer",
+      "organization": "Telangana Health",
+      "type": "State Govt",
+      "location": "Telangana",
+      "specialty": "GDMO",
+      "mode_of_selection": "Interview",
+      "deadline": "2026-04-30",
+      "notification_url": "https://parichay.telangana.gov.in",
+      "application_url": "https://parichay.telangana.gov.in",
+      "verified_date": "2026-04-22",
+      "source_url": "https://parichay.telangana.gov.in"
+    },
+    {
+      "id": "iocl-gdmo-2026-005",
+      "title": "Medical Officer / GDMO",
+      "organization": "IndianOil",
+      "type": "PSU",
+      "location": "All India",
+      "specialty": "GDMO",
+      "mode_of_selection": "Interview",
+      "deadline": "2026-05-25",
+      "notification_url": "https://iocl.com/medical-careers",
+      "application_url": "https://iocl.com/medical-careers",
+      "verified_date": "2026-04-22",
+      "source_url": "https://iocl.com/medical-careers"
+    },
+    {
+      "id": "hmfw-ap-mo-2026-006",
+      "title": "Medical Officer",
+      "organization": "HMFW AP",
+      "type": "State Govt",
+      "location": "Andhra Pradesh",
+      "specialty": "GDMO",
+      "mode_of_selection": "Interview",
+      "deadline": "2026-05-05",
+      "notification_url": "https://hmfw.ap.gov.in/recruitment",
+      "application_url": "https://hmfw.ap.gov.in/recruitment",
+      "verified_date": "2026-04-22",
+      "source_url": "https://hmfw.ap.gov.in/recruitment"
+    }
+  ]
+}
